@@ -1,0 +1,242 @@
+@import "./scss/mixin";
+
+// ---------------------------------------- about ----------------------------------------------------
+.about {
+    max-width: 1500px !important;
+    width: auto !important;
+    margin: 0 auto;
+
+    &__section1 {
+        display: flex;
+        height: 55rem;
+        padding: 4rem;
+        margin-bottom: 8rem;
+
+
+        &Left {
+            flex: 0 0 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 4rem;
+        }
+
+        &Right {
+            flex: 0 0 40%;
+        }
+
+        &Middle {
+            flex: 1;
+        }
+
+        &Img {
+            width: 100%;
+        }
+
+        &heading {
+            color: var(--color-black);
+            font-weight: 800;
+            font-size: 6rem;
+            text-align: center;
+            line-height: 1;
+            letter-spacing: -0.05em;
+        }
+
+        &desc {
+            color: var(--color-grey-dark);
+            font-size: 1.8rem;
+            text-align: center;
+            margin: 3rem 0rem;
+        }
+
+        &btnOutline {
+
+            &,
+            &:link,
+            &:visited {
+                color: var(--color-black);
+                border: 1px solid var(--color-grey-light);
+                font-size: 1.6rem;
+                padding: 1rem 3rem;
+                border-radius: 10px;
+                transition: all 0.3s ease-in-out;
+                margin-bottom: 1.6rem;
+                text-decoration: none;
+                display: inline-block;
+                transition: all 0.3s ease-in;
+                width: 30rem;
+                text-align: center;
+
+                &:hover {
+                    background-color: var(--color-grey-light-2);
+                    transform: translateY(-0.3rem);
+                    box-shadow: 0rem 0.7rem 2rem rgba(var(--color-black), $alpha: 0.2);
+                }
+            }
+        }
+
+        &btnRound {
+
+            &,
+            &:link,
+            &:visited {
+                text-decoration: none;
+                display: inline-block;
+                transition: all 0.3s ease-in;
+                width: 30rem;
+                text-align: center;
+                background-color: var(--color-primary);
+                color: var(--color-white);
+                font-size: 1.6rem;
+                padding: 1rem 3rem;
+                border-radius: 10px;
+                box-shadow: 0 0.5rem 1rem rgba(var(--color-black), $alpha: 0.2);
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    background-color: #800f2f;
+                    transform: translateY(-0.3rem);
+                    box-shadow: 0rem 0.7rem 2rem rgba(var(--color-black), $alpha: 0.2);
+                }
+            }
+
+        }
+    }
+
+    //  ------------------------ section 2 ------------------------------------------------
+    &__section2 {
+        display: flex;
+        height: 50rem;
+        padding: 4rem;
+        margin-bottom: 8rem;
+
+
+        &Left {
+            flex: 0 0 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 8rem;
+        }
+
+        &Right {
+            flex: 1;
+        }
+
+        &Img {
+            width: 100%;
+        }
+
+        &heading {
+            color: var(--color-black);
+            font-weight: 800;
+            font-size: 4rem;
+            text-align: center;
+            line-height: 1;
+            letter-spacing: -0.05em;
+        }
+
+        &desc {
+            color: var(--color-grey-dark);
+            font-size: 1.8rem;
+            text-align: center;
+            margin: 3rem 0rem;
+        }
+
+
+        &btnRound {
+
+            &,
+            &:link,
+            &:visited {
+                text-decoration: none;
+                display: inline-block;
+                transition: all 0.3s ease-in;
+                width: 30rem;
+                text-align: center;
+                background-color: var(--color-primary);
+                color: var(--color-white);
+                font-size: 1.6rem;
+                padding: 1rem 3rem;
+                border-radius: 10px;
+                box-shadow: 0 0.5rem 1rem rgba(var(--color-black), $alpha: 0.2);
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    background-color: #800f2f;
+                    transform: translateY(-0.3rem);
+                    box-shadow: 0rem 0.7rem 2rem rgba(var(--color-black), $alpha: 0.2);
+                }
+            }
+
+        }
+    }
+
+    // --------------------------- section 3 -------------------------------------------------
+    &__section3 {
+
+        padding: 8rem;
+
+        &heading {
+            color: var(--color-black);
+            font-weight: 900;
+            font-size: 5rem;
+            text-align: center;
+            line-height: 1;
+            letter-spacing: -0.05em;
+        }
+
+        &desc {
+            color: var(--color-grey-dark);
+            font-size: 1.8rem;
+            text-align: center;
+            margin: 1.6rem 0rem;
+        }
+
+        &Partition {
+            display: flex;
+            margin-top: 3rem;
+        }
+
+        &Left {
+            flex: 0 0 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &Right {
+            flex: 1;
+        }
+
+        &List {
+            list-style: none;
+        }
+
+        &Items {
+            margin-top: 6rem;
+        }
+
+        &Info1 {
+            text-transform: uppercase;
+            color: #FF0096;
+            font-size: 1.6rem;
+        }
+
+        &Info2 {
+            padding: 1.7rem 0rem;
+            font-weight: 700;
+            font-size: 2.6rem;
+            line-height: 1.3em;
+        }
+
+        &Info3 {
+            font-size: 16px;
+            color: #7d7c83;
+            line-height: 1.7em;
+        }
+    }
+}
