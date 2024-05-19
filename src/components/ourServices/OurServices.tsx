@@ -16,7 +16,7 @@ const OurServices = () => {
 
                 <a
                     target="_blank"
-                    href="https://www.instagram.com/yashfalke77/"
+                    href="https://www.instagram.com/suuraaaaj/"
                     rel="noreferrer" >
                     <div className={`${styles.product__card} ${styles["product__card--1"]}`}>
                         <div className={styles.product__cardOuter}>
@@ -58,7 +58,7 @@ const OurServices = () => {
                 </a>
 
                 <a
-                    href="https://www.linkedin.com/in/yashfalke77/"
+                    href="https://www.linkedin.com/in/imsurajchahar/"
                     target="_blank"
                     rel="noreferrer">
                     <div className={`${styles.product__card} ${styles["product__card--3"]}`}>

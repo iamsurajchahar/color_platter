@@ -57,12 +57,12 @@ const about = () => {
                             <ul className={styles.about__section3List}>
                                 <li className={styles.about__section3Items}>
                                     <p className={styles.about__section3Info1}>support</p>
-                                    <p className={styles.about__section3Info2}>yashfalke77@gmail.com</p>
+                                    <p className={styles.about__section3Info2}>contact.chahar@gmail.com</p>
                                     <p className={styles.about__section3Info3}>You can also look at About page</p>
                                 </li>
                                 <li className={styles.about__section3Items}>
                                     <p className={styles.about__section3Info1}>about</p>
-                                    <p className={styles.about__section3Info2}>Made by Yash Falke</p>
+                                    <p className={styles.about__section3Info2}>Made by Suraj Singh Chahar</p>
                                     <p className={styles.about__section3Info3}>Created during a weekend as Personal Project</p>
                                 </li>
                             </ul>
@@ -71,13 +71,13 @@ const about = () => {
                             <ul className={styles.about__section3List}>
                                 <li className={styles.about__section3Items}>
                                     <p className={styles.about__section3Info1}>company</p>
-                                    <p className={styles.about__section3Info2}>yashfalke77@gmail.com</p>
+                                    <p className={styles.about__section3Info2}>contact.chahar@gmail.com</p>
                                     <p className={styles.about__section3Info3}>Created during a weekend as Personal Project</p>
                                 </li>
                                 <li className={styles.about__section3Items}>
                                     <p className={styles.about__section3Info1}>info</p>
                                     <p className={styles.about__section3Info2}>Colors</p>
-                                    <p className={styles.about__section3Info3}>Mumbai, India.</p>
+                                    <p className={styles.about__section3Info3}>Agra, India.</p>
                                 </li>
                             </ul>
                         </div>
