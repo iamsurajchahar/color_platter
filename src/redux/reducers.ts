@@ -1,8 +1,10 @@
 import { combineReducers } from "redux";
 import authReducer from "./authReducer";
 import colorsReducer from "./colorsReducer";
+import { counterReducer } from "./reducers/counter";
 
 const rootReducer = combineReducers({ 
+    counter: counterReducer,
     auth: authReducer,
     colors: colorsReducer
  });

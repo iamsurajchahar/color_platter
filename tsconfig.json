@@ -20,8 +20,10 @@
     "baseUrl": ".",
     "paths": {
       "@components/*": [
-        "src/components/*"
+        "src/components/*",
       ],
+      "@redux/actions": ["src/redux/actions"],
+      
       "@components": [
         "src/components"
       ],

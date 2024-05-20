@@ -1,4 +1,4 @@
-import React, { ReactElement } from "react";
+import React, { ReactElement, FC } from "react";
 import {
   render as baseRender,
   RenderOptions,
@@ -16,11 +16,9 @@ import store from "@redux/store";
  * please visit https://testing-library.com/docs/react-testing-library/setup
  */
 
-export const AllTheProviders = ({ children }) => {
+const AllTheProviders: FC = ({ children }) => {
   return (
-    <>
-      <Provider store={store}>{children}</Provider>
-    </>
+    <Provider store={store}>{children}</Provider>
   );
 };
 
