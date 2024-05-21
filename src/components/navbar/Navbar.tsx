@@ -84,27 +84,27 @@ const Navbar = () => {
                             </Link>
                             <div className={styles.line}></div>
                             <div className={styles.explore__bottom}>
-                                <a href="https://www.instagram.com/yashfalke77/" target="_blank" rel='noreferrer'>
+                                <a href="https://www.instagram.com/suuraaaaj/" target="_blank" rel='noreferrer'>
                                     <svg className={styles.explore__bottomIcon}>
                                         <use href="/icons/symbol-defs.svg#icon-instagram"></use>
                                     </svg>
                                 </a>
-                                <a href="https://www.youtube.com/channel/UCax8or2_bzQCHe0GdSLITOA" target="_blank" rel='noreferrer'>
+                                <a href="https://www.youtube.com/channel/UC-n3Fr7c0WoHd8CUPn4CQzw" target="_blank" rel='noreferrer'>
                                     <svg className={styles.explore__bottomIcon}>
                                         <use href="/icons/symbol-defs.svg#icon-youtube"></use>
                                     </svg>
                                 </a>
-                                <a href="https://www.linkedin.com/in/yashfalke77/" target="_blank" rel='noreferrer'>
+                                <a href="https://www.linkedin.com/in/imsurajchahar/" target="_blank" rel='noreferrer'>
                                     <svg className={styles.explore__bottomIcon}>
                                         <use href="/icons/symbol-defs.svg#icon-linkedin-with-circle"></use>
                                     </svg>
                                 </a>
-                                <a href="https://codepen.io/yashfalke77" target="_blank" rel='noreferrer'>
+                                <a href="https://codepen.io/" target="_blank" rel='noreferrer'>
                                     <svg className={styles.explore__bottomIcon}>
                                         <use href="/icons/symbol-defs.svg#icon-codepen"></use>
                                     </svg>
                                 </a>
-                                <a href="https://github.com/yashfalke77" target="_blank" rel='noreferrer'>
+                                <a href="https://github.com/iamsurajchahar" target="_blank" rel='noreferrer'>
                                     <svg className={styles.explore__bottomIcon}>
                                         <use href="/icons/symbol-defs.svg#icon-github"></use>
                                     </svg>

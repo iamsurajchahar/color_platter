@@ -12,7 +12,7 @@ const Home: React.FC = () => {
   return (
     <div className={styles.home}>
       <Head>
-        <title>My page title</title>
+        <title>Coolers</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="shortcut icon" href={logo.src} type="image/x-icon"></link>
       </Head>

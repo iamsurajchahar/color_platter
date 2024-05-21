@@ -133,7 +133,7 @@ const Footer = () => {
                             <use href="/icons/symbol-defs.svg#icon-instagram"></use>
                         </svg>
                     </a>
-                    <a href="https://www.youtube.com/" target="_blank" rel='noreferrer'>
+                    <a href="https://www.youtube.com/channel/UC-n3Fr7c0WoHd8CUPn4CQzw" target="_blank" rel='noreferrer'>
                         <svg className={styles.footer__icon}>
                             <use href="/icons/symbol-defs.svg#icon-youtube"></use>
                         </svg>
