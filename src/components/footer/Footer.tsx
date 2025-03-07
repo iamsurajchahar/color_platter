@@ -128,7 +128,7 @@ const Footer = () => {
                     From a creative to all others
                 </span>
                 <div className={styles.footer__mediaIcon}>
-                    <a href="https://www.instagram.com/suuraaaaj/" target="_blank" rel='noreferrer'>
+                    <a href="https://www.instagram.com/soorajbutwithu/" target="_blank" rel='noreferrer'>
                         <svg className={styles.footer__icon}>
                             <use href="/icons/symbol-defs.svg#icon-instagram"></use>
                         </svg>
