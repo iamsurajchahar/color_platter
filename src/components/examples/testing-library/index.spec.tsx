@@ -1,13 +1,5 @@
 import { fireEvent, render } from "@test";
 import { TestingLibraryExample } from "./index";
-
-/**
- * This test file is generated as an example for testing-library/react with jest
- *
- * To learn more about testing-library and it's environment
- * please visit https://testing-library.com/docs/react-testing-library/intro/
- */
-
 describe("Component testing with testing-library", () => {
   it("renders without crashing", () => {
     const { getByText } = render(

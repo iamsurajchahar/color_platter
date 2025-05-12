@@ -16,7 +16,7 @@ const OurServices = () => {
 
                 <a
                     target="_blank"
-                    href="https://www.instagram.com/suuraaaaj/"
+                    href="https://www.instagram.com/soorajbutwithu/"
                     rel="noreferrer" >
                     <div className={`${styles.product__card} ${styles["product__card--1"]}`}>
                         <div className={styles.product__cardOuter}>

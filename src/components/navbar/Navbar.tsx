@@ -84,7 +84,7 @@ const Navbar = () => {
                             </Link>
                             <div className={styles.line}></div>
                             <div className={styles.explore__bottom}>
-                                <a href="https://www.instagram.com/suuraaaaj/" target="_blank" rel='noreferrer'>
+                                <a href="https://www.instagram.com/soorajbutwithu/" target="_blank" rel='noreferrer'>
                                     <svg className={styles.explore__bottomIcon}>
                                         <use href="/icons/symbol-defs.svg#icon-instagram"></use>
                                     </svg>
